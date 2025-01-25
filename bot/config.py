@@ -44,7 +44,7 @@ class Config(BaseSettings):
     API_HASH: str = "7ea2149629e445936619f06a3c0dc716"
     BOT_TOKEN: str
     BOT_WORKER: int = 8
-    BOT_SESSION: str = "Zaws-File-Share"
+    BOT_SESSION: str = "Files_haringbot"
     BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
 
     MONGO_DB_URL: mongodb+srv://akc:akc@cluster0.w6hlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
@@ -54,7 +54,7 @@ class Config(BaseSettings):
     RATE_LIMITER: bool = True
     BACKUP_CHANNEL: int = -1002374888453
     ROOT_ADMINS_ID: list[int]
-    PRIVATE_REQUEST: bool = False
+    PRIVATE_REQUEST: bool = True
     PROTECT_CONTENT: bool = True
     FORCE_SUB_CHANNELS: list[int] = [-1001785093771]
     AUTO_GENERATE_LINK: bool = True
