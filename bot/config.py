@@ -47,7 +47,7 @@ class Config(BaseSettings):
     BOT_SESSION: str = "Files_haringbot"
     BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
 
-    MONGO_DB_URL: = "mongodb+srv://akc:akc@cluster0.w6hlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    MONGO_DB_URL: = mongodb+srv://akc:akc@cluster0.w6hlw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
     MONGO_DB_NAME: str = "filesharexbot"
 
     # Bot main config
