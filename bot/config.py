@@ -54,7 +54,7 @@ class Config(BaseSettings):
     RATE_LIMITER: bool = True
     BACKUP_CHANNEL: int = -1002374888453
     ROOT_ADMINS_ID: list[int]
-    PRIVATE_REQUEST: bool = True
+    PRIVATE_REQUEST: bool = False
     PROTECT_CONTENT: bool = True
     FORCE_SUB_CHANNELS: list[int] = [-1001785093771]
     AUTO_GENERATE_LINK: bool = True
