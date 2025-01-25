@@ -42,7 +42,7 @@ class Config(BaseSettings):
 
     API_ID: int = 29171167
     API_HASH: str = "7ea2149629e445936619f06a3c0dc716"
-    BOT_TOKEN: str
+    BOT_TOKEN: str = "7229580309:AAH0AslARKpEgn0jLIKEkpeVsZcS8Cu9sQc"
     BOT_WORKER: int = 8
     BOT_SESSION: str = "Files_haringbot"
     BOT_MAX_MESSAGE_CACHE_SIZE: int = 100
